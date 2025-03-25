@@ -19,7 +19,7 @@ async function* generateData(queryOptions: any) {
   let data: User[] = [];
   // Prepare the CSV data as a string
   const csvHeader = [
-    "ID,Date, Start Time,End Time,Merch Rep Id,Account Name,City,Activity Log,Complete,Geo Location,Notes,Number Of Cases",
+    "ID,Date, Username, Password",
   ];
   const limit = 100; // limit can be customized based on the ram available
   while (true) {
